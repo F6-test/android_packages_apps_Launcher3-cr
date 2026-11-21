@@ -295,6 +295,7 @@ constructor(@ApplicationContext private val encryptedContext: Context) {
                 ALLAPPS_THEMED_ICONS.get(it)
             }
         @JvmField val ALLOW_WALLPAPER_ZOOMING = backedUpItem("pref_allow_wallpaper_zooming", true)
+        @JvmField val THEMED_ICONS_OVERLAY = backedUpItem("pref_themed_icons_overlay", true)
         @JvmField val APP_DRAWER_CUSTOM_COLOR_ENABLED = backedUpItem("pref_app_drawer_custom_color_enabled", false)
         @JvmField val APP_DRAWER_CUSTOM_COLOR_LIGHT = backedUpItem("pref_app_drawer_custom_color_light", -1) // #FFFFFFFF
         @JvmField val APP_DRAWER_CUSTOM_COLOR_DARK = backedUpItem("pref_app_drawer_custom_color_dark", -16777216) // #FF000000

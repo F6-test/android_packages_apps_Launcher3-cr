@@ -25,6 +25,9 @@
     <!-- General -->
     <string name="settings_title">Home settings</string>
 
+    <string name="themed_icons_overlay_title">Overlayed themed icons</string>
+    <string name="themed_icons_overlay_summary">Use custom themed icons mapping for apps without native themed icon</string>
+
     <!-- Categories -->
     <string name="home_category_title">Home screen</string>
     <string name="home_category_summary">Set Google now panel and more</string>
